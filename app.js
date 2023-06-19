@@ -29,7 +29,7 @@ if (depositDuration < 6) {
   interest = 15;
 } else if (depositDuration >= 6 && depositDuration <= 9) {
   interest = 16;
-} else if (depositDuration > 9 && depositDuration <= 17) {
+} else if (depositDuration > 9) {
   interest = 17;
 }
 
